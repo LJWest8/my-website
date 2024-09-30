@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+
+    <title>Test Website Project</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-ixon">
 </head>
 
 <body>
+    <!--header with nav bar-->
     <header>
-        <h1>Welcome to my website</h1>
-        <nav>
-            <ul>
+       
+        <nav class="navbar">
+
+            <!--logo--> 
+            <div class="logo">
+                <a href="#">Lewis West</a>
+            </div>
+            
+            <!--navigation links-->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <!--burger menu for mobile-->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
     </header>
+
+    <section id="home">
+        <h1>Test Website Project</h1>
+        <p>This is a website to learn and practice html, css, and javascript</p>
+    </section>
 
     <section id="about">
         <h2>About Me</h2>
@@ -34,8 +59,11 @@
         <p>lewis11west@gmail.com</p>
     </section>
 
+    <footer>
+        <p>&copy; 2024 MyWebsite. All rights reserved</p>
+    </footer>
+
     <script src="script.js"></script>
 
 </body>
-
 </html>
